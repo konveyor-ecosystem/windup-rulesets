@@ -127,7 +127,7 @@
          <rule id="generic-catchall-00700-hint-test">
             <when>
                <not>
-                  <hint-exists message="org.jboss.* reference found.*" />
+                  <hint-exists message="`org.jboss.* reference found.*" />
                </not>
             </when>
             <perform>
