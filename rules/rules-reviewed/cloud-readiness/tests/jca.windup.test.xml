@@ -5,11 +5,11 @@
     <rulePath>../jca.windup.xml</rulePath>
     <ruleset>
         <rules>
-            <rule id="jca-test-00001">
+            <rule id="jca-test-00000">
                 <when>
                     <not>
                         <iterable-filter size="1">
-  	                      <hint-exists message="an embedded resource adapter descriptor \(\'ra.xml\'\) *" />
+  	                      <hint-exists message=".*an embedded resource adapter descriptor \(\'ra.xml\'\).*" />
                         </iterable-filter>
                     </not>
                 </when>
